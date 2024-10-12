@@ -14,7 +14,11 @@ group = "io.hexlet"
 
 version = "1.0-SNAPSHOT"
 
-application { mainClass.set("io.hexlet.Application") }
+application {
+    mainClass = "org.gradle.sample.Main"
+    mainClass.set("io.hexlet.Application")
+    mainClassName = 'com.gradle.tutorial.FizzBuzzProcessor'
+}
 
 repositories { mavenCentral() }
 
