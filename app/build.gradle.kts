@@ -8,6 +8,7 @@ plugins {
     id("io.freefair.lombok") version "8.6"
     id("com.github.ben-manes.versions") version "0.50.0"
     id("com.github.johnrengelman.shadow") version "8.1.1"
+    `java-library`
 }
 
 group = "io.hexlet"
@@ -16,7 +17,7 @@ version = "1.0-SNAPSHOT"
 
 application {
     mainClass = "org.gradle.sample.Main"
-    mainClass.set("io.hexlet.Application")
+    mainClass.set("hexlet.code.App")
     mainClassName = 'com.gradle.tutorial.FizzBuzzProcessor'
 }
 
