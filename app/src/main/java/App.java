@@ -1,4 +1,4 @@
-package hexlet.code;
+package io.hexlet;
 
 class App {
 public static void main(String[] args) {
