@@ -6,16 +6,14 @@ plugins {
     jacoco
     id("java")
     id("checkstyle")
-    id("io.freefair.lombok") version "8.6"
-    id("com.github.ben-manes.versions") version "0.50.0"
-    id("com.github.johnrengelman.shadow") version "8.1.1"
+
 }
 
 group = "hexlet.code"
 
 version = "1.0-SNAPSHOT"
 
-application { mainClass.set("App") }
+application { mainClass.set("hexlet.code.App") }
 
 repositories { mavenCentral() }
 

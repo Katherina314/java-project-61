@@ -1,6 +1,6 @@
-package hexlet.code;
+package hexlet.code.App;
 
-public class App {
+public class hexlet.code.App {
     public static void main(String[] args) {
         System.out.println("Welcome to the Brain Games!");
     }
