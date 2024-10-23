@@ -39,7 +39,13 @@ tasks.test {
         // showStackTraces = true
         // showCauses = true
         showStandardStreams = true
+
+
     }
 }
 
-tasks.jacocoTestReport { reports { xml.required.set(true) } }
+tasks.jacocoTestReport { reports { xml.required.set(true) }
+    tasks.getByName("run", JavaExec::class) {
+        standardInput = System.`in`
+    }
+}
