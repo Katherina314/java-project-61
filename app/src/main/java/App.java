@@ -1,6 +1,8 @@
-package hexlet.code.App;
+package hexlet.code;
 
-public class hexlet.code.App {
+import java.util.Scanner;
+
+public class App {
     public static void main(String[] args) {
         System.out.println("Welcome to the Brain Games!");
     }
