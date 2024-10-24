@@ -12,11 +12,6 @@
           </set>
         </option>
       </GradleProjectSettings>
-      <GradleProjectSettings>
-        <option name="externalProjectPath" value="$PROJECT_DIR$/app" />
-        <option name="gradleHome" value="" />
-        <option name="gradleJvm" value="corretto-21 (3)" />
-      </GradleProjectSettings>
     </option>
   </component>
 </project>
