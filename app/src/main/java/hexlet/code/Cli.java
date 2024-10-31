@@ -1,3 +1,5 @@
 package hexlet.code;
 
-public class Cli()
+public class Cli() {
+
+}
