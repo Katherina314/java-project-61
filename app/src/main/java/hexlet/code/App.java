@@ -21,7 +21,7 @@ public class App {
                     System.out.println("Welcome to the Brain Games!\n" +
                             "May I have your name?");
                     command = scanner.nextLine();
-                    System.out.println(command);
+                    System.out.println("Hello," + command);
                     break;
 
                 case "0":
@@ -30,7 +30,7 @@ public class App {
             }
             ;
 
-        }while (!command.equals(""));
+        }while (!command.equals("0"));
 
 
 
