@@ -3,15 +3,25 @@ package hexlet.code;
 import java.util.Scanner;
 
 public class Even {
-    public static void game(int num) {
+    private static int Random;
+
+    public static int run() {
         Cli.greeting();
         System.out.println("Answer 'yes' if the number is even? otherwise answer 'no'.");
-        int num = new num();
+
+        int question = Random;
+        System.out.println("Question:" + question);
 
         Scanner scanner = new Scanner(System.in);
 
         String command;
+
         command = scanner.nextLine();
-        System.out.println("Question: " + command);
+        System.out.println("Your answer:" + command);
+        return question;
     }
+
+
+
 }
+

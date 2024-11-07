@@ -1,37 +1,31 @@
 package hexlet.code;
 
 import java.util.Scanner;
-import hexlet.code.Cli;
 import hexlet.code.Even;
 
 public class App {
     public static void main(String[] args) {
+        System.out.println("Please enter the game number and press Enter");
+        System.out.println("1 - Greet");
+        System.out.println("2 - Even");
+        System.out.println("0 - Exit");
+
         Scanner scanner = new Scanner(System.in);
+        String userAnswer = scanner.next();
 
-        String command;
-
-        do {
-            System.out.println("Please enter the game number and press Enter");
-            System.out.println("1 - Greet");
-            System.out.println("2 - Even");
-            System.out.println("0 - Exit");
-
-            command = scanner.nextLine();
-
-            switch (command) {
+        switch (userAnswer) {
                 case "1":
                     Cli.greeting();
                     break;
 
-                case "0":
-                    System.out.println("Goodbuy!");
+                case "2":
+                    Even.run();
                     break;
-            }
-            ;
 
-        }while (!command.equals("0"));
-
-
+            default:
+                return;
+        }
+            scanner.close();
 
     };
 };
