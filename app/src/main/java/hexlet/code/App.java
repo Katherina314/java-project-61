@@ -10,6 +10,8 @@ public class App {
         System.out.println("2 - Even");
         System.out.println("0 - Exit");
 
+        System.out.println("Your choice: ");
+
         Scanner scanner = new Scanner(System.in);
         String userAnswer = scanner.next();
 
