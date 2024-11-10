@@ -17,19 +17,21 @@ public class Even {
         System.out.println("Your answer: ");
         Scanner scanner = new Scanner(System.in);
         String userAnswer = scanner.next();
-    };
-        public static boolean isEven(int num) {
-        String userAnswer = isEven(num) ? "yes" : "no";
-        if (num % 2 == 0) {
-            System.out.println("Correct!");
-        } else {
+
+
+        if (num % 2 == 0) System.out.println("Correct!");
+            else {
             System.out.println("'yes' is wrong answer ;(. Correct answer was 'no'.\n" +
                     "Let's try again," + 0);
-
         }
+    }
+
+    public static boolean isEven(int num) {
+        String scanner = isEven(num) ? "yes" : "no";
 
 
         return false;
-    }
-}
+    };
+};
+
 
