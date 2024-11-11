@@ -24,6 +24,9 @@ public class App {
                     Even.run();
                     break;
 
+                case "0":
+                    break;
+
             default:
                 return;
         }
