@@ -13,8 +13,6 @@ public class Cli {
             System.out.println("Hello," + user);
 
 
-        scanner.close();
-
 
     }
 

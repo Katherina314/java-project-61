@@ -1,44 +1,48 @@
 package hexlet.code;
 
+import java.util.Random;
 import java.util.Scanner;
-import hexlet.code.Cli;
 
 public class Even {
+    static final Random RANDOM = new Random();
+    private static String round;
 
     public static void run() {
         Cli.greeting();
 
         System.out.println("Answer 'yes' if the number is even, otherwise answer 'no'.");
 
-        int num = (int) (Math.random() * 100);
+        int num = new num(RANDOM);
+
+        int i = RANDOM.nextInt();
+
         for (int i = 0; i < 3; i++) {
             System.out.println("Question:" + num);
             System.out.println("Your answer: ");
             Scanner userAnswer = new Scanner(System.in);
             String correctAnswer = "";
             String question = "";
+            String user = "";
 
+            for (var round : question) {
+                System.out.println("Question: " + num);
 
-        for (var round : question) {
-            System.out.println("Question: " + num);
+                System.out.print("Your answer: ");
+                correctAnswer = round;
 
-            System.out.print("Your answer: ");
+                if (userAnswer.equals(correctAnswer)) {
+                    System.out.println("Correct!");
+                } else {
+                    System.out.println("'yes' is wrong answer ;(. Correct answer was 'no'.\n" +
+                            "Let's try again, " + user);
 
-            Scanner userAnswer = scanner.next();
-            correctAnswer = round;
-
-            if (userAnswer.equals(correctAnswer)) {
-                System.out.println("Correct!");
-            } else {
-                System.out.println("'yes' is wrong answer ;(. Correct answer was 'no'.\n" +
-                        "Let's try again, " + user);
-
-                System.out.println("Let's try again, " + user + "!");
-
-                return;
+                    return;
+                }
             }
+
+            System.out.println("Congratulations!");
+
         }
+    }
+}
 
-        System.out.println("Congratulations, " + user + "!");
-
-        };
