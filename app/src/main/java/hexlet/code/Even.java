@@ -1,48 +1,33 @@
 package hexlet.code;
 
-import java.util.Random;
-import java.util.Scanner;
-
 public class Even {
-    static final Random RANDOM = new Random();
-    private static String round;
+    static final int MAX_NUMBER = 100;
+    static final String GAME_RULE = "Answer 'yes' if the number is even, otherwise answer 'no'.";
 
     public static void run() {
-        Cli.greeting();
+        String[][] questionsAnswers = new String[Engine.MAX_ROUNDS_OF_GAME][Engine.QA_FOR_ONE_ROUND];
 
-        System.out.println("Answer 'yes' if the number is even, otherwise answer 'no'.");
-
-        int num = new num(RANDOM);
-
-        int i = RANDOM.nextInt();
-
-        for (int i = 0; i < 3; i++) {
-            System.out.println("Question:" + num);
-            System.out.println("Your answer: ");
-            Scanner userAnswer = new Scanner(System.in);
-            String correctAnswer = "";
-            String question = "";
-            String user = "";
-
-            for (var round : question) {
-                System.out.println("Question: " + num);
-
-                System.out.print("Your answer: ");
-                correctAnswer = round;
-
-                if (userAnswer.equals(correctAnswer)) {
-                    System.out.println("Correct!");
-                } else {
-                    System.out.println("'yes' is wrong answer ;(. Correct answer was 'no'.\n" +
-                            "Let's try again, " + user);
-
-                    return;
-                }
-            }
-
-            System.out.println("Congratulations!");
-
+        for (var i = 0; i < Engine.MAX_ROUNDS_OF_GAME; i++) {
+            questionsAnswers[i] = generateRoundData();
         }
+
+        Engine.playGame(questionsAnswers, GAME_RULE);
+    }
+
+    static String[] generateRoundData() {
+        String[] round = new String[Engine.QA_FOR_ONE_ROUND];
+
+        var questionNumber = Utils.randomNumber(MAX_NUMBER);
+        var question = String.valueOf(questionNumber);
+        var answer = isEven(questionNumber) ? "yes" : "no";
+
+        round[Engine.QUESTION_INDEX] = question;
+        round[Engine.ANSWER_INDEX] = answer;
+
+        return round;
+    }
+
+    static boolean isEven(int number) {
+        return number % 2 == 0;
     }
 }
-
