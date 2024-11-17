@@ -13,3 +13,10 @@
 
 Игра "Калькулятор" (победа)
 ![Снимок экрана 2024-11-15 224929](https://github.com/user-attachments/assets/feeeada9-e57f-4bac-8f90-9df6dccf9b7a)
+
+Игра НОД (поражение)
+![Снимок экрана 2024-11-17 221520](https://github.com/user-attachments/assets/d9cb393a-e660-4ddf-86c6-f3e3aa51218c)
+
+Игра НОД (победа)
+![Снимок экрана 2024-11-17 221655](https://github.com/user-attachments/assets/ca0de0b0-c5e1-412c-871d-7fcec786a739)
+
