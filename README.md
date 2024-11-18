@@ -20,3 +20,11 @@
 Игра НОД (победа)
 ![Снимок экрана 2024-11-17 221655](https://github.com/user-attachments/assets/ca0de0b0-c5e1-412c-871d-7fcec786a739)
 
+Игра "Прогрессия" (победа)
+![Снимок экрана 2024-11-18 225847](https://github.com/user-attachments/assets/7251587b-9303-4616-8857-9fa004c16914)
+
+Игра "Прогрессия" (поражение)
+![Снимок экрана 2024-11-18 225942](https://github.com/user-attachments/assets/163fcb9e-06d2-42ab-ac1c-aff1d5708004)
+
+Игра "Простое ли число?"
+
