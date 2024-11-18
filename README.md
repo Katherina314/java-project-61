@@ -26,5 +26,8 @@
 Игра "Прогрессия" (поражение)
 ![Снимок экрана 2024-11-18 225942](https://github.com/user-attachments/assets/163fcb9e-06d2-42ab-ac1c-aff1d5708004)
 
-Игра "Простое ли число?"
+Игра "Простое ли число?" (поражение)
+![Снимок экрана 2024-11-18 231711](https://github.com/user-attachments/assets/f4f1c518-0fc7-4bcc-9ba9-73dacf8d6c21)
 
+Игра "Простое ли число?" (победа)
+![Снимок экрана 2024-11-18 231845](https://github.com/user-attachments/assets/9c49dfe2-fa0c-449f-84f7-a7bc72ccc09d)
