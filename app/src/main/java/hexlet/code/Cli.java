@@ -12,6 +12,8 @@ public class Cli {
             String user = scanner.nextLine();
             System.out.println("Hello," + user);
 
+        return user;
+
 
 
     }
