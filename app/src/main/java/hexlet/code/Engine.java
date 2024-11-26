@@ -32,12 +32,12 @@ public class Engine {
                 System.out.println("'" + userAnswer + "' is wrong answer ;(."
                         + "Correct answer was '" + correctAnswer + "'.");
 
-                System.out.println("Let's try again!");
+                System.out.println("Let's try again, " + user + "!");
 
                 return;
             }
         }
 
-        System.out.println("Congratulations!");
+        System.out.println("Congratulations, " + user + "!");
     }
 }
