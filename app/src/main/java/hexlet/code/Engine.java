@@ -9,7 +9,7 @@ public class Engine {
     public static final int ANSWER_INDEX = 1;
 
     public static void playGame(String[][] questionsAnswers, String gameRules) {
-        Cli.greeting();
+        var user = Cli.greeting();
 
         System.out.println(gameRules);
 
@@ -32,12 +32,12 @@ public class Engine {
                 System.out.println("'" + userAnswer + "' is wrong answer ;(."
                         + "Correct answer was '" + correctAnswer + "'.");
 
-                System.out.println("Let's try again, " + greeting.getUser() + "!");
+                System.out.println("Let's try again, " + user + "!");
 
                 return;
             }
         }
 
-        System.out.println("Congratulations, " + greeting.getUser() + "!");
+        System.out.println("Congratulations, " + user + "!");
     }
 }
