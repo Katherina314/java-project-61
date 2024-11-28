@@ -1,10 +1,5 @@
 package hexlet.code;
 
-import hexlet.code.Calculator;
-import hexlet.code.Even;
-import hexlet.code.GCD;
-import hexlet.code.Prime;
-import hexlet.code.Progression;
 import java.util.Scanner;
 
 public class App {
