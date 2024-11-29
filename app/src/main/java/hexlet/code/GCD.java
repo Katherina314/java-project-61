@@ -2,7 +2,7 @@ package hexlet.code;
 
 public class GCD {
     static final int MAX_OPERAND_VALUE = 100;
-    static final String GAME_RULE = "count GCD for these numbers";
+    static final String GAME_RULE = "Find the greatest common divisor of given numbers.";
 
 
     public static void run() {

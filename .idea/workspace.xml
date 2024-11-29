@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b8ef1a17-4312-4ef3-9e1f-86dc9097a296" name="Changes" comment="Merge remote-tracking branch 'origin/main'" />
+    <list default="true" id="b8ef1a17-4312-4ef3-9e1f-86dc9097a296" name="Changes" comment="Merge remote-tracking branch 'origin/main'">
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/hexlet/code/GCD.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/hexlet/code/GCD.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -271,14 +273,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728757272559</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Merge remote-tracking branch 'origin/main'">
-      <option name="closed" value="true" />
-      <created>1728762268608</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1728762268608</updated>
     </task>
     <task id="LOCAL-00006" summary="Merge remote-tracking branch 'origin/main'">
       <option name="closed" value="true" />
@@ -664,7 +658,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732913229744</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="Merge remote-tracking branch 'origin/main'">
+      <option name="closed" value="true" />
+      <created>1732913687684</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1732913687684</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="UnknownFeatures">
