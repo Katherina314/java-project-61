@@ -2,7 +2,7 @@ package hexlet.code;
 
 public class Calculator {
     static final int MAX_OPERAND_VALUE = 100;
-    static final String GAME_RULE = "count these numbers";
+    static final String GAME_RULE = "What is the result of the expression?";
     static final String[] OPERATIONS = {"+", "-", "*"};
 
     public static void run() {
