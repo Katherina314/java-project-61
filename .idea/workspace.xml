@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b8ef1a17-4312-4ef3-9e1f-86dc9097a296" name="Changes" comment="Merge remote-tracking branch 'origin/main'">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/hexlet/code/Engine.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/hexlet/code/Engine.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/hexlet/code/GCD.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/hexlet/code/GCD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/hexlet/code/Prime.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/hexlet/code/Prime.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -273,14 +276,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728757272559</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Merge remote-tracking branch 'origin/main'">
-      <option name="closed" value="true" />
-      <created>1729018137564</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1729018137564</updated>
     </task>
     <task id="LOCAL-00007" summary="Merge remote-tracking branch 'origin/main'">
       <option name="closed" value="true" />
@@ -666,7 +661,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732913687684</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="Merge remote-tracking branch 'origin/main'">
+      <option name="closed" value="true" />
+      <created>1732913948465</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1732913948465</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="UnknownFeatures">

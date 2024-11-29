@@ -1,7 +1,6 @@
 package hexlet.code;
 
 import java.util.Scanner;
-import hexlet.code.Cli;
 
 public class Engine {
     public static final int MAX_ROUNDS_OF_GAME = 3;
@@ -39,6 +38,6 @@ public class Engine {
             }
         }
 
-        System.out.println("Congratulations, " + user+ "!");
+        System.out.println("Congratulations, " + user + "!");
     }
 }

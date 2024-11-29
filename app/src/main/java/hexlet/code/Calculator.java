@@ -39,6 +39,4 @@ public class Calculator {
             default -> throw new RuntimeException("Unknown operation: " + operation);
         };
     }
-
-
 }

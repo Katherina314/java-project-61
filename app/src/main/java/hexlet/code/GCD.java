@@ -4,7 +4,6 @@ public class GCD {
     static final int MAX_OPERAND_VALUE = 100;
     static final String GAME_RULE = "Find the greatest common divisor of given numbers.";
 
-
     public static void run() {
         String[][] questionsAnswers = new String[Engine.MAX_ROUNDS_OF_GAME][Engine.QA_FOR_ONE_ROUND];
 
@@ -32,7 +31,7 @@ public class GCD {
         return round;
     }
 
-    static int Gcd(int dividend, int divisor) {
+    static int gcd(int dividend, int divisor) {
         if (divisor > dividend) {
             var temp = dividend;
 
@@ -51,7 +50,6 @@ public class GCD {
             dividend = divisor;
             divisor = remainderFromDivision;
         }
-
         return gcd;
     }
 }

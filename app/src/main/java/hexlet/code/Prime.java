@@ -14,7 +14,7 @@ public class Prime {
             Engine.playGame(questionsAnswers, GAME_RULE);
         }
 
-        static String[] generateRoundData () {
+        static String[] generateRoundData() {
             String[] round = new String[Engine.QA_FOR_ONE_ROUND];
 
             var questionNumber = Utils.randomNumber(MAX_NUMBER);
