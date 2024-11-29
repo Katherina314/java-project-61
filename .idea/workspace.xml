@@ -6,16 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b8ef1a17-4312-4ef3-9e1f-86dc9097a296" name="Changes" comment="Merge remote-tracking branch 'origin/main'">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/settings.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/app/settings.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/hexlet/code/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/hexlet.code/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/hexlet/code/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/hexlet.code/Calculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/hexlet/code/Cli.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/hexlet.code/Cli.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/hexlet/code/Engine.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/hexlet.code/Engine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/hexlet/code/Even.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/hexlet.code/Even.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/hexlet/code/GCD.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/hexlet.code/GCD.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/hexlet/code/Prime.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/hexlet.code/Prime.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/hexlet/code/Progression.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/hexlet.code/Progression.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/hexlet/code/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/hexlet.code/Utils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/hexlet/code/Engine.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/hexlet/code/Engine.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +36,9 @@
         <task path="$PROJECT_DIR$/app/src">
           <activation />
         </task>
+        <task path="$PROJECT_DIR$/app/src/main">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
             <expand>
@@ -55,16 +49,6 @@
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="app" type="f1a62948:ProjectNode" />
-                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="app" type="f1a62948:ProjectNode" />
-                <item name="Run Configurations" type="7b0102dc:RunConfigurationsNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="app" type="f1a62948:ProjectNode" />
                 <item name="src" type="2d1252cf:ModuleNode" />
               </path>
               <path>
@@ -78,15 +62,7 @@
                 <item name="app" type="f1a62948:ProjectNode" />
                 <item name="src" type="2d1252cf:ModuleNode" />
                 <item name="main" type="2d1252cf:ModuleNode" />
-                <item name="java" type="2d1252cf:ModuleNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="app" type="f1a62948:ProjectNode" />
-                <item name="src" type="2d1252cf:ModuleNode" />
-                <item name="main" type="2d1252cf:ModuleNode" />
-                <item name="java" type="2d1252cf:ModuleNode" />
-                <item name="hexlet" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
               </path>
             </expand>
             <select />
@@ -155,7 +131,7 @@
     &quot;external.system.has.shared.sources&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Public/Documents/java-project-61/app/src/main/java/untitled/src/main/java/hexlet/code&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Public/Documents/java-project-61/app/untitled1/src/main/java/hexlet/code&quot;,
     &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
@@ -164,14 +140,15 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Public\Documents\java-project-61\app\untitled1\src\main\java\hexlet\code" />
       <recent name="C:\Users\Public\Documents\java-project-61\app\src\main\java\untitled\src\main\java\hexlet\code" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Public\Documents\java-project-61\app" />
       <recent name="C:\Users\Public\Documents\java-project-61\app\src\main\java\hexlet" />
       <recent name="C:\Users\Public\Documents\java-project-61\app\src\main\java\hexlet.code" />
       <recent name="C:\Users\Public\Documents\java-project-61\app\src\main\java\hexlet\code" />
       <recent name="C:\Users\Public\Documents\java-project-61\app\src\main\java\hexlet\games" />
-      <recent name="\\wsl$\Ubuntu\root\java-project-61\app" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -297,14 +274,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728757272559</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Add README.md">
-      <option name="closed" value="true" />
-      <created>1728759289022</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1728759289022</updated>
     </task>
     <task id="LOCAL-00004" summary="Merge remote-tracking branch 'origin/main'">
       <option name="closed" value="true" />
@@ -690,7 +659,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732655948535</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="Merge remote-tracking branch 'origin/main'">
+      <option name="closed" value="true" />
+      <created>1732822966087</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1732822966087</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="UnknownFeatures">
