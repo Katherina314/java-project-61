@@ -6,9 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="b8ef1a17-4312-4ef3-9e1f-86dc9097a296" name="Changes" comment="Merge remote-tracking branch 'origin/main'">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/hexlet/code/Engine.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/hexlet/code/Engine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/hexlet/code/GCD.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/hexlet/code/GCD.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/hexlet/code/Prime.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/hexlet/code/Prime.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/hexlet/code/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/hexlet/code/games/Calculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/hexlet/code/Even.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/hexlet/code/games/Even.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/hexlet/code/GCD.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/hexlet/code/games/GCD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/hexlet/code/Prime.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/hexlet/code/games/Prime.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/hexlet/code/Progression.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/hexlet/code/games/Progression.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -146,11 +148,11 @@
       <recent name="C:\Users\Public\Documents\java-project-61\app\src\main\java\untitled\src\main\java\hexlet\code" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Public\Documents\java-project-61\app\src\main\java\hexlet\code\games" />
       <recent name="C:\Users\Public\Documents\java-project-61\app" />
       <recent name="C:\Users\Public\Documents\java-project-61\app\src\main\java\hexlet" />
       <recent name="C:\Users\Public\Documents\java-project-61\app\src\main\java\hexlet.code" />
       <recent name="C:\Users\Public\Documents\java-project-61\app\src\main\java\hexlet\code" />
-      <recent name="C:\Users\Public\Documents\java-project-61\app\src\main\java\hexlet\games" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -276,22 +278,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728757272559</updated>
-    </task>
-    <task id="LOCAL-00007" summary="Merge remote-tracking branch 'origin/main'">
-      <option name="closed" value="true" />
-      <created>1729019454286</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1729019454286</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Merge remote-tracking branch 'origin/main'">
-      <option name="closed" value="true" />
-      <created>1729198292345</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1729198292345</updated>
     </task>
     <task id="LOCAL-00009" summary="Merge remote-tracking branch 'origin/main'">
       <option name="closed" value="true" />
@@ -669,7 +655,23 @@
       <option name="project" value="LOCAL" />
       <updated>1732913948465</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="Merge remote-tracking branch 'origin/main'">
+      <option name="closed" value="true" />
+      <created>1732914715539</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1732914715539</updated>
+    </task>
+    <task id="LOCAL-00057" summary="Merge remote-tracking branch 'origin/main'">
+      <option name="closed" value="true" />
+      <created>1732914927517</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1732914927517</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="UnknownFeatures">

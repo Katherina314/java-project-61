@@ -2,9 +2,9 @@ package hexlet.code;
 
 public class Progression {
     static final int PROGRESSION_LENGTH = 10;
-    static final int PROGRESSION_START_RANDOM = 50;
-    static final int PROGRESSION_STEP_RANDOM = 10;
-    static final int POS_OF_HIDDEN_ELEM_RANDOM = 10;
+    static final int PROGRESSION_START_LIMIT = 50;
+    static final int PROGRESSION_STEP_LIMIT = 10;
+    static final int POSITION_OF_HIDDEN_ELEMENT_LIMIT = 10;
     static final String GAME_RULE = "What number is missing in the progression?";
 
     public static void run() {
@@ -19,9 +19,9 @@ public class Progression {
     static String[] generateRoundData() {
         String[] round = new String[Engine.QA_FOR_ONE_ROUND];
 
-        var progressionStep = Utils.randomNumber(PROGRESSION_STEP_RANDOM);
-        var hiddenElemIndex = Utils.randomNumber(POS_OF_HIDDEN_ELEM_RANDOM);
-        var progressionFirstElement = Utils.randomNumber(PROGRESSION_START_RANDOM);
+        var progressionStep = Utils.randomNumber(PROGRESSION_STEP_LIMIT);
+        var hiddenElemIndex = Utils.randomNumber(POSITION_OF_HIDDEN_ELEMENT_LIMIT);
+        var progressionFirstElement = Utils.randomNumber(PROGRESSION_START_LIMIT);
 
         var progression = generateProgression(progressionFirstElement, progressionStep, PROGRESSION_LENGTH);
         var answer = progression[hiddenElemIndex];

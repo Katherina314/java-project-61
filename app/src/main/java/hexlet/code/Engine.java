@@ -13,9 +13,6 @@ public class Engine {
 
         System.out.println(gameRules);
 
-        var userAnswer = "";
-        var correctAnswer = "";
-
         Scanner scanner = new Scanner(System.in);
 
         for (var round : questionsAnswers) {
