@@ -20,6 +20,9 @@ public class Engine {
 
             System.out.print("Your answer: ");
 
+            var userAnswer = "";
+            var correctAnswer = "";
+
             userAnswer = scanner.next();
             correctAnswer = round[ANSWER_INDEX];
 
