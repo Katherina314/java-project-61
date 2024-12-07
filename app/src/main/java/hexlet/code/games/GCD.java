@@ -31,7 +31,7 @@ public class GCD {
         return round;
     }
 
-    static int gcd(int dividend, int divisor) {
+    static int calculatedGcd(int dividend, int divisor) {
         if (divisor > dividend) {
             var temp = dividend;
 

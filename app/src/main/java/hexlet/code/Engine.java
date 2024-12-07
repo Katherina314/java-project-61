@@ -20,11 +20,8 @@ public class Engine {
 
             System.out.print("Your answer: ");
 
-            var userAnswer = "";
-            var correctAnswer = "";
-
-            userAnswer = scanner.next();
-            correctAnswer = round[ANSWER_INDEX];
+            var userAnswer = scanner.next();
+            var correctAnswer = round[ANSWER_INDEX];
 
             if (userAnswer.equals(correctAnswer)) {
                 System.out.println("Correct!");
