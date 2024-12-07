@@ -116,6 +116,7 @@
     &quot;Application.App.executor&quot;: &quot;Run&quot;,
     &quot;Application.Main.executor&quot;: &quot;Run&quot;,
     &quot;Gradle.Build java-project-61.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.C:/Users/Public/Documents/java-project-61 [run].executor&quot;: &quot;Run&quot;,
     &quot;Gradle.C:/Users/Public/Documents/java-project-61.executor&quot;: &quot;Run&quot;,
     &quot;Gradle.C:/Users/Public/Documents/java-project-61/app [run].executor&quot;: &quot;Run&quot;,
     &quot;Gradle.Load Gradle Dependencies.executor&quot;: &quot;Run&quot;,
@@ -152,19 +153,11 @@
   </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
-      <command value="gradlew run" />
       <command value="gradle --info" />
+      <command value="gradlew run" />
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.C:/Users/Public/Documents/java-project-61/app [run]">
-    <configuration name="App (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="UNNAMED_CLASS_CONFIGURATION" value="true" />
-      <option name="MAIN_CLASS_NAME" value="App" />
-      <module name="app_main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Gradle.C:/Users/Public/Documents/java-project-61 [run]">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="hexlet.code.App" />
       <module name="app_main" />
@@ -190,6 +183,28 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration name="C:/Users/Public/Documents/java-project-61 [run]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="run" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
     </configuration>
     <configuration name="C:/Users/Public/Documents/java-project-61" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -260,6 +275,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.C:/Users/Public/Documents/java-project-61 [run]" />
         <item itemvalue="Application.App" />
         <item itemvalue="Gradle.C:/Users/Public/Documents/java-project-61" />
       </list>
@@ -273,14 +289,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728757272559</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Merge remote-tracking branch 'origin/main'">
-      <option name="closed" value="true" />
-      <created>1729198292345</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1729198292345</updated>
     </task>
     <task id="LOCAL-00009" summary="Merge remote-tracking branch 'origin/main'">
       <option name="closed" value="true" />
@@ -666,7 +674,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733342750130</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="Merge remote-tracking branch 'origin/main'">
+      <option name="closed" value="true" />
+      <created>1733605456532</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1733605456532</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="UnknownFeatures">
