@@ -157,7 +157,7 @@
       <command value="gradlew run" />
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.C:/Users/Public/Documents/java-project-61 [run]">
+  <component name="RunManager" selected="Gradle.C:/Users/Public/Documents/java-project-61/app [run]">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="hexlet.code.App" />
       <module name="app_main" />
@@ -275,6 +275,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Makefile Target.run" />
         <item itemvalue="Gradle.C:/Users/Public/Documents/java-project-61 [run]" />
         <item itemvalue="Application.App" />
         <item itemvalue="Gradle.C:/Users/Public/Documents/java-project-61" />

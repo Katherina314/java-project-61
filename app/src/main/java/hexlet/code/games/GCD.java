@@ -22,7 +22,7 @@ public class GCD {
 
 
         var question = firstNumber + " " + secondNumber;
-        var answer = gcd(firstNumber, secondNumber);
+        var answer = calculatedGcd(firstNumber, secondNumber);
 
 
         round[Engine.QUESTION_INDEX] = String.valueOf(question);
